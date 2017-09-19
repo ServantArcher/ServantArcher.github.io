@@ -1,18 +1,23 @@
 @media screen and (min-width: 1200px) {
-   body{
-   }
+    body {
+    }
 
     ul, li {
-        color:white;
-
+        color: white;
+        text-align: center;
+        display: inline;
+        position: relative;
 
     }
-.jumbotron{
-    padding-left:1em;
 
-}
-.nav, .navbar, navbar-nav{
-    align-content: center;
-
-}
+    .jumbotron {
+        margin-bottom: 0;
     }
+
+    .box {
+        height: 500px;
+        width: 380px;
+        background-image: url("http://lorempixel.com/380/500/");
+        border: 1px solid black;
+    }
+}
